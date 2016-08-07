@@ -6,7 +6,7 @@
 using namespace std;
 int main() {
 
-    Point point;//定义对象
+    Point point;//定义对象 ，会调用默认构造函数
     cout<< point.Getx()<<endl;
 
     Point *p1 = new Point(); //指针

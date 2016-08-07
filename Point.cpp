@@ -9,9 +9,9 @@
 
 using namespace std;
 
-Point::Point() {
+/*Point::Point() {
     cout<<"默认构造函数被调用"<<endl;
-}
+}*/
 
 //三种赋值方式
 Point::Point(int a, int b) : x(a), y(b) {
